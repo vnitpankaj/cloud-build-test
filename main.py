@@ -2,7 +2,7 @@ from google.cloud import bigquery
 from flask import Flask
 from flask import request
 import os ,json,logging
-
+#all working good
 app = Flask(__name__)
 client = bigquery.Client()
 
